@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingTwoWay", "DataBindingTwoWay.csproj", "{0B06B393-51A3-47BB-8CBD-77035F684C37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabindingWithList", "..\DatabindingWithList\DatabindingWithList.csproj", "{9189EBD2-8FC0-4AFC-9B9A-A1ABF7E2D884}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0B06B393-51A3-47BB-8CBD-77035F684C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B06B393-51A3-47BB-8CBD-77035F684C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B06B393-51A3-47BB-8CBD-77035F684C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9189EBD2-8FC0-4AFC-9B9A-A1ABF7E2D884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9189EBD2-8FC0-4AFC-9B9A-A1ABF7E2D884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9189EBD2-8FC0-4AFC-9B9A-A1ABF7E2D884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9189EBD2-8FC0-4AFC-9B9A-A1ABF7E2D884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
