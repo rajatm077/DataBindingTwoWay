@@ -18,8 +18,16 @@ namespace DataBindingTwoWay {
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
+        private Employee emp;
         public MainWindow() {
             InitializeComponent();
+            emp = Employee.GetEmployee();
+            DataContext = emp;
+        }
+
+        private void Change_Click(object sender, RoutedEventArgs e) {
+            emp.Name = "RAJAT";
+            emp.Title = "Lead Engineer";
         }
     }
 }

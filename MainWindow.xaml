@@ -7,6 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <StackPanel Name="Display">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Name: " />
+                <TextBox Text="{ Binding Name, Mode=TwoWay }" 
+                           Margin="5,0,0,0" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Title: " />
+                <TextBox Text="{ Binding Title, Mode=TwoWay }"
+                           Margin="5,0,0,0" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Name: " />
+                <TextBlock Text="{ Binding Name }" 
+                           Margin="5,0,0,0" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Title: " />
+                <TextBlock Text="{ Binding Title }"
+                           Margin="5,0,0,0" />
+            </StackPanel>
+
+        </StackPanel>
     </Grid>
 </Window>
